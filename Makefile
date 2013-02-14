@@ -10,6 +10,6 @@ test-watch:
 	@NODE_ENV=test $(MOCHA) $(SPEC_DIR) \
 		--reporter $(REPORTER) \
 		--growl \
-    	--watch
+		--watch
 
 .PHONY: test test-watch
