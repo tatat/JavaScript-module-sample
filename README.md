@@ -1,4 +1,4 @@
-JavaScript module sample (without DOM)
+# JavaScript module sample (without DOM)
 
     # install node modules (mocha & chai) to ./node_modules
     npm install
