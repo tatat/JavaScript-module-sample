@@ -1,12 +1,16 @@
 {
-  "name": "Nyan",
+  "name": "javascript-module-sample",
   "version": "0.0.1",
-  "dependencies": {
+  "devDependencies": {
     "mocha": "*",
-    "chai": "*"
+    "sinon": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "uglify-js": "*"
   },
   "scripts": {
     "test": "make test",
-    "test-watch": "make test-watch"
+    "test-watch": "make test-watch",
+    "uglify": "make uglify"
   }
 }

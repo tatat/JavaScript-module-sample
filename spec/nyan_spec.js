@@ -1,5 +1,15 @@
-var expect = require('chai').expect
-  , Nyan = require('../lib/nyan');
+if (
+  typeof module !== 'undefined' &&
+  module != null &&
+  typeof module.exports === 'object'
+) {
+  var sinon = require('sinon')
+    , chai = require('chai').use(require('sinon-chai'))
+    , expect = chai.expect
+    , Nyan = require('../lib/nyan');
+} else {
+  var expect = chai.expect;
+}
 
 describe('Nyan', function() {
   var object;
